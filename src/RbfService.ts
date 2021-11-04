@@ -1,5 +1,6 @@
-import HttpClient from 'core/http';
 import { EvalRbf, FitRbf, InitRbf, RbfResponse } from 'models';
+
+import HttpClient from './core/http';
 
 const RbfService = {
   /**
